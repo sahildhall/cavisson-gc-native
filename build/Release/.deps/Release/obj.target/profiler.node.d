@@ -1,0 +1,1 @@
+cmd_Release/obj.target/profiler.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=profiler.node -o Release/obj.target/profiler.node -Wl,--start-group Release/obj.target/profiler/src/heapdiff.o Release/obj.target/profiler/src/init.o Release/obj.target/profiler/src/memwatch.o Release/obj.target/profiler/src/util.o -Wl,--end-group 
