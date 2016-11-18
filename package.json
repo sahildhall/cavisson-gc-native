@@ -1,10 +1,13 @@
 {
   "name": "cavisson-gc-native",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "",
   "_npmUser": {
     "name": "cavissonsystems",
     "email": "balasudheer2802@gmail.com"
+  },
+  "config": {
+    "unsafe-perm":true
   },
   "binary": {
     "module_name": "profiler",
